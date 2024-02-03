@@ -1,0 +1,540 @@
+{% extends "index/base.html" %}
+{% load static %}
+
+{% block main %}
+     <main class="main">
+            <section class="header__two">
+                <div class="header__two-box-one">
+                    <p class="textheader-twop">WEB 3 NON-FUNGIBLE TOKENS</p>
+                    <h1 class="textheader-twoh1">Unlock Unique Digital Ownership with NFTs</h1>
+                    <h3 class="text-experience">Experience the Revolutionary World of Non-Fungible Tokens on Our Exclusive NFT Marketplace</h3>
+                    <!-- <button type="button" class="btn-kash"><img src="{% static 'index/assets/icons/kosh.svg' %}" alt="kosh"> Connect Wallet</button> -->
+                    <button type="button" class="btn btn-kash" data-bs-toggle="modal" data-bs-target="#myModal">
+                        <img src="{% static 'index/assets/icons/kosh.svg' %}" class="koss" alt="kosh"> Connect Wallet
+                    </button>
+                </div>
+                <div class="header__two-box-two">
+                    <img src="{% static 'index/assets/icons/pr.svg' %}" alt="per" class="per">
+                    <img src="{% static 'index/assets/icons/kr-b.svg' %}" alt="big-kr" class="big-kr">
+                    <img src="{% static 'index/assets/icons/kr-s.svg' %}" alt="smalll-kr" class="smalll-kr">
+                </div>
+            </section>
+            <!-- The Modal -->
+            <div class="modal" id="myModal">
+                <div class="header-mod">
+                    <div class="df-icon">
+                        <img src="{% static 'index/assets/icons/onei.svg' %}" alt="icon" class="icon">
+                        <img src="{% static 'index/assets/icons/twoi.svg' %}" alt="icon" class="icon">
+                        <img src="{% static 'index/assets/icons/threei.svg' %}" alt="icon" class="icon">
+                    </div>
+                    <form action="#" method="#" class="form">
+                        <button type="button" class="btn-search"><img src="{% static 'index/assets/icons/search.svg' %}" alt="search"></button>
+                        <input type="text" class="inp" placeholder="Search">
+                    </form>
+                    <ul class="ul">
+                        <li class="li">
+                            <a href="#" class="a">Explore</a>
+                        </li>
+                        <li class="li">
+                            <a href="#" class="a">Trending🔥</a>
+                        </li>
+                        <li class="li">
+                            <a href="#" class="a">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <h1 class="modal-text">Sign with your wallet!</h1>
+                            <p class="modal-p">Sign Wallet NFT, the secure digital storage for unique assets, take a step towards the future</p>
+                            <button class="btn-pink" type="button">Connect Wallet A</button>
+                            <button class="btn-pyor" type="button">Connect Wallet B</button>
+                            <button class="btn-green" type="button">Connect Wallet B</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-sam">
+
+                <section class="main-one">
+                    <h1 class="main-one-text">Trending Art 🔥</h1>
+                    <div class="box-df__naib-one">
+                        <a href="detailNFT.html" class="link">
+                            <div class="box__nft">
+                                <img src="{% static 'index/assets/images/one.jpg' %}" alt="one" class="imf-nft">
+                                <h3 class="text-nft">ExBoot #2</h3>
+                                <div class="user-box">
+                                    <div class="box-sf ">
+                                        <img src="{% static 'index/assets/icons/gal.svg' %}" alt="gal" class="gal">
+                                        <img src="{% static 'index/assets/icons/peop.svg' %}" alt="peop" class="peop">
+                                        <p class="name-user">Richard </p>
+                                    </div>
+                                    <div class="two-boxu">
+                                        <p class="text-b">Current Bid</p>
+                                        <div class="df-ico">
+                                            <img src="{% static 'index/assets/icons/nft-ico.svg' %}" alt="nft" class="ico-nft">
+                                            <h3 class="namber-nft">3.421 </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="detailNFT.html" class="link">
+                            <div class="box__nft">
+                                <img src="{% static 'index/assets/images/two.jpg' %}" alt="one" class="imf-nft">
+                                <h3 class="text-nft">ExBoot #1</h3>
+                                <div class="user-box">
+                                    <div class="box-sf u">
+                                        <img src="{% static 'index/assets/icons/gal.svg' %}" alt="gal" class="gal">
+                                        <img src="{% static 'index/assets/icons/peop-two.svg' %}" alt="peop" class="peop">
+                                        <p class="name-user">Perperzon </p>
+                                    </div>
+                                    <div class="two-boxu">
+                                        <p class="text-b">Current Bid</p>
+                                        <div class="df-ico">
+                                            <img src="{% static 'index/assets/icons/nft-ico.svg' %}" alt="nft" class="ico-nft">
+                                            <h3 class="namber-nft">3.421 </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="detailNFT.html" class="link">
+                            <div class="box__nft">
+                                <img src="{% static 'index/assets/images/three.jpg' %}" alt="one" class="imf-nft">
+                                <h3 class="text-nft">Future of Polygon X</h3>
+                                <div class="user-box">
+                                    <div class="box-sf u">
+                                        <img src="{% static 'index/assets/icons/gal.svg' %}" alt="gal" class="gal">
+                                        <img src="{% static 'index/assets/icons/peop-two.svg' %}" alt="peop" class="peop">
+                                        <p class="name-user">Perperzon</p>
+                                    </div>
+                                    <div class="two-boxu">
+                                        <p class="text-b">Current Bid</p>
+                                        <div class="df-ico">
+                                            <img src="{% static 'index/assets/icons/nft-ico.svg' %}" alt="nft" class="ico-nft">
+                                            <h3 class="namber-nft">3.421 </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="detailNFT.html" class="link">
+                            <div class="box__nft">
+                                <img src="{% static 'index/assets/images/foure.jpg' %}" alt="one" class="imf-nft">
+                                <h3 class="text-nft">Blue Wave #2</h3>
+                                <div class="user-box">
+                                    <div class="box-sf ">
+                                        <img src="{% static 'index/assets/icons/gal.svg' %}" alt="gal" class="gal">
+                                        <img src="{% static 'index/assets/icons/peop.svg' %}" alt="peop" class="peop">
+                                        <p class="name-user">Richard </p>
+                                    </div>
+                                    <div class="two-boxu">
+                                        <p class="text-b">Current Bid</p>
+                                        <div class="df-ico">
+                                            <img src="{% static 'index/assets/icons/nft-ico.svg' %}" alt="nft" class="ico-nft">
+                                            <h3 class="namber-nft">3.421 </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+                <section class="main-two">
+                    <h1 class="main-two-text">Featured Collections</h1>
+                    <div class="main-two__box-df">
+                        <a href="detailNFT.html" class="link">
+                            <div class="main-two__box">
+                                <img src="{% static 'index/assets/images/one.jpg' %}" alt="img" class="main-two-img">
+                                <div class="main-two__text-box">
+                                    <div class="box-sf">
+                                        <img src="{% static 'index/assets/icons/gal.svg' %}" alt="gal" class="gall">
+                                        <img src="{% static 'index/assets/icons/peop-two.svg' %}" alt="peop" class="peop">
+                                        <p class="name-user">Perperzon </p>
+                                    </div>
+                                    <h1 class="name-nftt">ExBoot #1</h1>
+                                    <p class="name-nfttp-b">Description</p>
+                                    <p class="name-nftt-w">We would like to present you The Exboot 3D - Watching you~</p>
+                                    <div class="df-box-nft">
+                                        <div class="one-box-df">
+                                            <p class="text-c">Current Bid</p>
+                                            <h3 class="text-coin"><span class="ico-coin"><img src="{% static 'index/assets/icons/nft-ico.svg' %}" alt="nft"></span>3.421 </h3>
+                                        </div>
+                                        <div class="two-box-df">
+                                            <p class="text-c">End in</p>
+                                            <h3 class="text-coin">1h 12m 14s</h3>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn-kash-two"><img src="{% static 'index/assets/icons/kosh.svg' %}" alt="kosh" class="kosh">Place Bid</button>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="detailNFT.html" class="link">
+                            <div class="main-two__box">
+                                <img src="{% static 'index/assets/images/two.jpg' %}" alt="img" class="main-two-img">
+                                <div class="main-two__text-box">
+                                    <div class="box-sf u">
+                                        <img src="{% static 'index/assets/icons/gal.svg' %}" alt="gal" class="gall">
+                                        <img src="{% static 'index/assets/icons/peop-two.svg' %}" alt="peop" class="peop">
+                                        <p class="name-user">Perperzon </p>
+                                    </div>
+                                    <h1 class="name-nftt">ExBoot #2</h1>
+                                    <p class="name-nfttp-b">Description</p>
+                                    <p class="name-nftt-w">We would like to present you The Exboot 3D - Watching you~</p>
+                                    <div class="df-box-nft">
+                                        <div class="one-box-df">
+                                            <p class="text-c">Current Bid</p>
+                                            <h3 class="text-coin"><span class="ico-coin"><img src="{% static 'index/assets/icons/nft-ico.svg' %}" alt="nft"></span>3.421 </h3>
+                                        </div>
+                                        <div class="two-box-df">
+                                            <p class="text-c">End in</p>
+                                            <h3 class="text-coin">1h 12m 14s</h3>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn-kash-two"><img src="{% static 'index/assets/icons/kosh.svg' %}" alt="kosh" class="kosh">Place Bid</button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+            </div>
+            <section class="main-three">
+                <div class="container-sam">
+                    <h1 class="main-three-text">Leaderboard of the Week</h1>
+                    <div class="main-three-df__box">
+                        <div class="main-three__box">
+                            <div class="aro">
+                                <p class="aro-text">#1</p>
+                            </div>
+                            <img src="{% static 'index/assets/images/leader-one.svg' %}" alt="leader" class="img-main-three">
+                            <h1 class="main-three__text-img">Perperzon</h1>
+                            <h3 class="main-three__text-coin"><span class="ico-coin"><img src="{% static 'index/assets/icons/nft-ico.svg' %}" alt="nft"></span>9.421</h3>
+                        </div>
+                        <div class="main-three__box">
+                            <div class="aro">
+                                <p class="aro-text">#2</p>
+                            </div>
+                            <img src="{% static 'index/assets/images/leader-two.svg' %}" alt="leader" class="img-main-three">
+                            <h1 class="main-three__text-img">Richard </h1>
+                            <h3 class="main-three__text-coin"><span class="ico-coin"><img src="{% static 'index/assets/icons/nft-ico.svg' %}" alt="nft"></span>8.421</h3>
+                        </div>
+                        <div class="main-three__box">
+                            <div class="aro">
+                                <p class="aro-text">#3</p>
+                            </div>
+                            <img src="{% static 'index/assets/images/leader-three.svg' %}" alt="leader" class="img-main-three">
+                            <h1 class="main-three__text-img">Anderson</h1>
+                            <h3 class="main-three__text-coin"><span class="ico-coin"><img src="{% static 'index/assets/icons/nft-ico.svg' %}" alt="nft"></span>7.421</h3>
+                        </div>
+                        <div class="main-three__box">
+                            <div class="aro">
+                                <p class="aro-text">#4</p>
+                            </div>
+                            <img src="{% static 'index/assets/images/leader-foure.svg' %}" alt="leader" class="img-main-three">
+                            <h1 class="main-three__text-img">Michael</h1>
+                            <h3 class="main-three__text-coin"><span class="ico-coin"><img src="{% static 'index/assets/icons/nft-ico.svg' %}" alt="nft"></span>5.421</h3>
+                        </div>
+                        <div class="main-three__box">
+                            <div class="aro">
+                                <p class="aro-text">#5</p>
+                            </div>
+                            <img src="{% static 'index/assets/images/leader-five.svg' %}" alt="leader" class="img-main-three">
+                            <h1 class="main-three__text-img">Antonson</h1>
+                            <h3 class="main-three__text-coin"><span class="ico-coin"><img src="{% static 'index/assets/icons/nft-ico.svg' %}" alt="nft"></span>3.421</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="container-sam">
+                <section class="main-foure">
+                    <div class="main-foure__box-df">
+                        <h1 class="main-foure-text">Explore</h1>
+                        <div class="dropdown">
+                            <button type="button" class="btn-point" data-bs-toggle="dropdown">
+                                <a href="#" class="rec-add">Recently Added</a>
+                                <img src="{% static 'index/assets/icons/chevron-down.svg' %}" class="chevron" alt="more">
+                            </button>
+                            <ul class="dropdown-menu poi ">
+                                <li class="li__count ">
+                                    <a class="dropdown-item " href="# "><img src="{% static 'index/assets/icons/nft-ico.svg' %} " class="cont " alt="cont ">NFT</a>
+                                </li>
+                                <li class="li__count ">
+                                    <a class="dropdown-item " href="# "><img src="{% static 'index/assets/icons/nft-ico.svg' %} " class="cont " alt="cont ">NFT</a>
+                                </li>
+                                <li class="li__count ">
+                                    <a class="dropdown-item " href="# "><img src="{% static 'index/assets/icons/nft-ico.svg' %} " class="cont " alt="cont ">NFT</a>
+                                </li>
+                                <li class="li__count ">
+                                    <a class="dropdown-item " href="# "><img src="{% static 'index/assets/icons/nft-ico.svg' %} " class="cont " alt="cont ">NFT</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="box-df__naib-oneb">
+                        <a href="detailNFT.html" class="link">
+                            <div class="box__nft">
+                                <img src="{% static 'index/assets/images/explore-one.svg' %}" alt="one" class="imf-nft">
+                                <h3 class="text-nft">ExBoot #1</h3>
+                                <div class="user-box">
+                                    <div class="box-sf">
+                                        <img src="{% static 'index/assets/icons/gal.svg' %}" alt="gal" class="gal">
+                                        <img src="{% static 'index/assets/icons/peop-two.svg' %}" alt="peop" class="peop">
+                                        <p class="name-user">Perperzon</p>
+                                    </div>
+                                    <div class="two-boxu">
+                                        <p class="text-b">Current Bid</p>
+                                        <div class="df-ico">
+                                            <img src="{% static 'index/assets/icons/nft-ico.svg' %}" alt="nft" class="ico-nft">
+                                            <h3 class="namber-nft">3.421 </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="detailNFT.html" class="link">
+                            <div class="box__nft">
+                                <img src="{% static 'index/assets/images/explore-two.svg' %}" alt="one" class="imf-nft">
+                                <h3 class="text-nft">ExBoot #2</h3>
+                                <div class="user-box">
+                                    <div class="box-sf">
+                                        <img src="{% static 'index/assets/icons/gal.svg' %}" alt="gal" class="gal">
+                                        <img src="{% static 'index/assets/icons/an.svg' %}" alt="peop" class="peop">
+                                        <p class="name-user">Antonson</p>
+                                    </div>
+                                    <div class="two-boxu">
+                                        <p class="text-b">Current Bid</p>
+                                        <div class="df-ico">
+                                            <img src="{% static 'index/assets/icons/nft-ico.svg' %}" alt="nft" class="ico-nft">
+                                            <h3 class="namber-nft">3.421 </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="detailNFT.html" class="link">
+                            <div class="box__nft">
+                                <img src="{% static 'index/assets/images/explore-three.svg' %}" alt="one" class="imf-nft">
+                                <h3 class="text-nft">Future of Polygon X</h3>
+                                <div class="user-box">
+                                    <div class="box-sf">
+                                        <img src="{% static 'index/assets/icons/gal.svg' %}" alt="gal" class="gal">
+                                        <img src="{% static 'index/assets/icons/m.svg' %}" alt="peop" class="peop">
+                                        <p class="name-user">Michael</p>
+                                    </div>
+                                    <div class="two-boxu">
+                                        <p class="text-b">Current Bid</p>
+                                        <div class="df-ico">
+                                            <img src="{% static 'index/assets/icons/nft-ico.svg' %}" alt="nft" class="ico-nft">
+                                            <h3 class="namber-nft">3.421 </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="detailNFT.html" class="link">
+                            <div class="box__nft">
+                                <img src="{% static 'index/assets/images/explore-foure.svg' %}" alt="one" class="imf-nft">
+                                <h3 class="text-nft">Blue Wave #2</h3>
+                                <div class="user-box">
+                                    <div class="box-sf">
+                                        <img src="{% static 'index/assets/icons/gal.svg' %}" alt="gal" class="gal">
+                                        <img src="{% static 'index/assets/icons/and.svg' %}" alt="peop" class="peop">
+                                        <p class="name-user">Anderson</p>
+                                    </div>
+                                    <div class="two-boxu">
+                                        <p class="text-b">Current Bid</p>
+                                        <div class="df-ico">
+                                            <img src="{% static 'index/assets/icons/nft-ico.svg' %}" alt="nft" class="ico-nft">
+                                            <h3 class="namber-nft">3.421 </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="box-df__naib-oneb">
+                        <a href="detailNFT.html" class="link">
+                            <div class="box__nft">
+                                <img src="{% static 'index/assets/images/explore-five.svg' %}" alt="one" class="imf-nft">
+                                <h3 class="text-nft">ExBoot #1</h3>
+                                <div class="user-box">
+                                    <div class="box-sf">
+                                        <img src="{% static 'index/assets/icons/gal.svg' %}" alt="gal" class="gal">
+                                        <img src="{% static 'index/assets/icons/m.svg' %}" alt="peop" class="peop">
+                                        <p class="name-user">Michael</p>
+                                    </div>
+                                    <div class="two-boxu">
+                                        <p class="text-b">Current Bid</p>
+                                        <div class="df-ico">
+                                            <img src="{% static 'index/assets/icons/nft-ico.svg' %}" alt="nft" class="ico-nft">
+                                            <h3 class="namber-nft">3.421 </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="detailNFT.html" class="link">
+                            <div class="box__nft">
+                                <img src="{% static 'index/assets/images/explore-six.svg' %}" alt="one" class="imf-nft">
+                                <h3 class="text-nft">ExBoot #2</h3>
+                                <div class="user-box">
+                                    <div class="box-sf">
+                                        <img src="{% static 'index/assets/icons/gal.svg' %}" alt="gal" class="gal">
+                                        <img src="{% static 'index/assets/icons/peop.svg' %}" alt="peop" class="peop">
+                                        <p class="name-user">Richard</p>
+                                    </div>
+                                    <div class="two-boxu">
+                                        <p class="text-b">Current Bid</p>
+                                        <div class="df-ico">
+                                            <img src="{% static 'index/assets/icons/nft-ico.svg' %}" alt="nft" class="ico-nft">
+                                            <h3 class="namber-nft">3.421 </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="detailNFT.html" class="link">
+                            <div class="box__nft">
+                                <img src="{% static 'index/assets/images/explore-seven.svg' %}" alt="one" class="imf-nft">
+                                <h3 class="text-nft">Future of Polygon X</h3>
+                                <div class="user-box">
+                                    <div class="box-sf">
+                                        <img src="{% static 'index/assets/icons/gal.svg' %}" alt="gal" class="gal">
+                                        <img src="{% static 'index/assets/icons/and.svg' %}" alt="peop" class="peop">
+                                        <p class="name-user">Anderson</p>
+                                    </div>
+                                    <div class="two-boxu">
+                                        <p class="text-b">Current Bid</p>
+                                        <div class="df-ico">
+                                            <img src="{% static 'index/assets/icons/nft-ico.svg' %}" alt="nft" class="ico-nft">
+                                            <h3 class="namber-nft">3.421 </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="detailNFT.html" class="link">
+                            <div class="box__nft">
+                                <img src="{% static 'index/assets/images/explore-eight.svg' %}" alt="one" class="imf-nft">
+                                <h3 class="text-nft">Blue Wave #2</h3>
+                                <div class="user-box">
+                                    <div class="box-sf">
+                                        <img src="{% static 'index/assets/icons/gal.svg' %}" alt="gal" class="gal">
+                                        <img src="{% static 'index/assets/icons/an.svg' %}" alt="peop" class="peop">
+                                        <p class="name-user">Antonson</p>
+                                    </div>
+                                    <div class="two-boxu">
+                                        <p class="text-b">Current Bid</p>
+                                        <div class="df-ico">
+                                            <img src="{% static 'index/assets/icons/nft-ico.svg' %}" alt="nft" class="ico-nft">
+                                            <h3 class="namber-nft">3.421 </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="box-df__naib-oneb">
+                        <a href="detailNFT.html" class="link">
+                            <div class="box__nft">
+                                <img src="{% static 'index/assets/images/explore-nine.svg' %}" alt="one" class="imf-nft">
+                                <h3 class="text-nft">ExBoot #1</h3>
+                                <div class="user-box">
+                                    <div class="box-sf">
+                                        <img src="{% static 'index/assets/icons/gal.svg' %}" alt="gal" class="gal">
+                                        <img src="{% static 'index/assets/icons/peop-two.svg' %}" alt="peop" class="peop">
+                                        <p class="name-user">Perperzon</p>
+                                    </div>
+                                    <div class="two-boxu">
+                                        <p class="text-b">Current Bid</p>
+                                        <div class="df-ico">
+                                            <img src="{% static 'index/assets/icons/nft-ico.svg' %}" alt="nft" class="ico-nft">
+                                            <h3 class="namber-nft">3.421 </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="detailNFT.html" class="link">
+                            <div class="box__nft">
+                                <img src="{% static 'index/assets/images/explore-ten.svg' %}" alt="one" class="imf-nft">
+                                <h3 class="text-nft">ExBoot #2</h3>
+                                <div class="user-box">
+                                    <div class="box-sf">
+                                        <img src="{% static 'index/assets/icons/gal.svg' %}" alt="gal" class="gal">
+                                        <img src="{% static 'index/assets/icons/an.svg' %}" alt="peop" class="peop">
+                                        <p class="name-user">Antonson</p>
+                                    </div>
+                                    <div class="two-boxu">
+                                        <p class="text-b">Current Bid</p>
+                                        <div class="df-ico">
+                                            <img src="{% static 'index/assets/icons/nft-ico.svg' %}" alt="nft" class="ico-nft">
+                                            <h3 class="namber-nft">3.421 </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="detailNFT.html" class="link">
+                            <div class="box__nft">
+                                <img src="{% static 'index/assets/images/explore-eleven.svg' %}" alt="one" class="imf-nft">
+                                <h3 class="text-nft">Future of Polygon X</h3>
+                                <div class="user-box">
+                                    <div class="box-sf">
+                                        <img src="{% static 'index/assets/icons/gal.svg' %}" alt="gal" class="gal">
+                                        <img src="{% static 'index/assets/icons/m.svg' %}" alt="peop" class="peop">
+                                        <p class="name-user">Michael</p>
+                                    </div>
+                                    <div class="two-boxu">
+                                        <p class="text-b">Current Bid</p>
+                                        <div class="df-ico">
+                                            <img src="{% static 'index/assets/icons/nft-ico.svg' %}" alt="nft" class="ico-nft">
+                                            <h3 class="namber-nft">3.421 </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="detailNFT.html" class="link">
+                            <div class="box__nft">
+                                <img src="{% static 'index/assets/images/explore-twelve.svg' %}" alt="one" class="imf-nft">
+                                <h3 class="text-nft">Blue Wave #2</h3>
+                                <div class="user-box">
+                                    <div class="box-sf">
+                                        <img src="{% static 'index/assets/icons/gal.svg' %}" alt="gal" class="gal">
+                                        <img src="{% static 'index/assets/icons/and.svg' %}" alt="peop" class="peop">
+                                        <p class="name-user">Richard </p>
+                                    </div>
+                                    <div class="two-boxu">
+                                        <p class="text-b">Current Bid</p>
+                                        <div class="df-ico">
+                                            <img src="{% static 'index/assets/icons/nft-ico.svg' %}" alt="nft" class="ico-nft">
+                                            <h3 class="namber-nft">3.421 </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="auto">
+                        <button class="btn-cente" type="button">Discover More</button>
+                    </div>
+                </section>
+                <section class="main-five">
+                    <img src="{% static 'index/assets/icons/arou.svg' %}" alt="arou" class="arou">
+                    <h1 class="main-five-text">Try our App Mobile NFT</h1>
+                    <button class="download-btn" type="button"><img src="{% static 'index/assets/icons/download.svg' %}" alt="download"class="download">Download Now</button>
+                    <img src="{% static 'index/assets/icons/iPhone-13.svg' %}" alt="phone" class="iphone">
+                </section>
+            </div>
+        </main>
+
+{% endblock %}

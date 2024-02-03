@@ -1,0 +1,93 @@
+{% extends "index/base.html" %}
+{% load static %}
+
+{% block main %}
+    <main class="main">
+            <section class="back-img-to-p"></section>
+            <div class="container-sam">
+                <section class="main-onen">
+                    <img src="{% static 'index/assets/images/one-img.png' %} " alt="img" class="img">
+                    <div class="df-main-onen">
+                        <h1 class="main-one__text">ExBoot #1</h1>
+                        <p class="main-one-p">Minted on Dec 31, 2022</p>
+                        <div class="df-main">
+                            <div class="one-df">
+                                <p class="main-one-p">Collection</p>
+                                <div class="box-user">
+                                    <img src="{% static 'index/assets/icons/peop.svg' %} " alt="peop">
+                                    <h3 class="user-name">Richard</h3>
+                                </div>
+                            </div>
+                            <div class="one-df">
+                                <p class="main-one-p">Creator</p>
+                                <div class="box-user">
+                                    <img src="{% static 'index/assets/icons/m.svg' %} " alt="peop">
+                                    <h3 class="user-name">Michael</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="main-one-p">Description</p>
+                        <h3 class="text-discript">We would like to present you The Exboot 3D - Watching you~ a digital collectible that utilizes blockchain technology to prove authenticity and scarcity. A must-have for any futuristic art enthusiast.</h3>
+                        <div class="df-box-nft">
+                            <div class="one-box-df">
+                                <p class="main-one-p">Current Bid</p>
+                                <h3 class="text-coin"><span class="ico-coin"><img src="{% static 'index/assets/icons/nft-ico.svg' %} " alt="nft"></span>3.421 </h3>
+                            </div>
+                            <div class="two-box-df">
+                                <p class="main-one-p">End in</p>
+                                <h3 class="text-coin">1h 12m 14s</h3>
+                            </div>
+                        </div>
+                        <!-- <button type="button" class="btn-kash"><img src="{% static 'index/assets/icons/kosh.svg' %} " alt="kosh"> Connect Wallet</button> -->
+                        <button type="button" class="btn btn-kash" data-bs-toggle="modal" data-bs-target="#myModal">
+                              <img src="{% static 'index/assets/icons/kosh.svg' %} " class="koss" alt="kosh"> Connect Wallet
+                        </button>
+                        <!-- The Modal -->
+                        <div class="modal" id="myModal">
+                            <div class="header-mod">
+                                <div class="df-icon">
+                                    <img src="{% static 'index/assets/icons/onei.svg' %} " alt="icon" class="icon">
+                                    <img src="{% static 'index/assets/icons/twoi.svg' %} " alt="icon" class="icon">
+                                    <img src="{% static 'index/assets/icons/threei.svg' %} " alt="icon" class="icon">
+                                </div>
+                                <form action="#" method="#" class="form">
+                                    <button type="button" class="btn-search"><img src="{% static 'index/assets/icons/search.svg' %} " alt="search"></button>
+                                    <input type="text" class="inp" placeholder="Search">
+                                </form>
+                                <ul class="ul">
+                                    <li class="li">
+                                        <a href="#" class="a">Explore</a>
+                                    </li>
+                                    <li class="li">
+                                        <a href="#" class="a">Trending🔥</a>
+                                    </li>
+                                    <li class="li">
+                                        <a href="#" class="a">FAQ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+
+                                    <!-- Modal body -->
+                                    <div class="modal-body">
+                                        <h1 class="modal-text">Sign with your wallet!</h1>
+                                        <p class="modal-p">Sign Wallet NFT, the secure digital storage for unique assets, take a step towards the future</p>
+                                        <button class="btn-pink" type="button">Connect Wallet A</button>
+                                        <button class="btn-pyor" type="button">Connect Wallet B</button>
+                                        <button class="btn-green" type="button">Connect Wallet B</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+
+{% endblock %}
