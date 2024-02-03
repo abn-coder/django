@@ -7,7 +7,7 @@ class SocialAdmin(admin.ModelAdmin):
     list_display_links = ("id","title")
     list_editable = ("status",)
     search_fields = ("title",)
-    list_filter = ("status", )
+
 
 
 admin.site.register(Social, SocialAdmin)
